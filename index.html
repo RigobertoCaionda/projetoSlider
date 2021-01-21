@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js"></script>
 </head>
 <body>
 	<header>
@@ -14,8 +13,8 @@
 		</div>
 		<div class="slider">
 			<div class="slider--controls">
-				<div class="slider--control">Voltar</div>
-				<div class="slider--control">Proxima</div>
+				<div class="slider--control" onclick="goPrev();">Voltar</div>
+				<div class="slider--control" onclick="goNext();">Proxima</div>
 			</div>
 			<div class="slider--width">
 				<div class="slider--item" style="background-image: url('images/f1.jpg');">
